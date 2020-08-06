@@ -1,0 +1,114 @@
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+ }
+ .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#name{
+    margin-top: 20px;
+    padding-right: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: black;
+    opacity: .7;
+    text-align: right;
+    font-family: cursive;
+}
+#profile{
+  font-size: 20px;
+  padding-right: 10px;
+  background-color: black;
+  opacity: .7;
+  text-align: right;
+  font-family: cursive;
+}
+nav{
+  background-color: black;
+  opacity: .7;
+  padding: 30px;
+  margin: 0px;
+}
+nav a{
+  text-decoration: none;
+  margin: 30px;
+  color: white;
+  padding: 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+nav a:hover{
+  box-shadow: 0 1px 5px 3px white;
+}
+#mypic{
+  background: url('mypic.png') no-repeat center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 340px;
+  height: 340px;
+  border-radius: 170px;
+  border: 7px solid black;
+  opacity: .9;  
+}
+.check{
+  background-color: black;
+  opacity: .8;
+  color: white;
+  height: 100%;
+  width:100%;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+ }
+.check1{
+  padding-bottom: 30px;
+ }
+th, td {
+  border: 2px solid rgb(87, 86, 86);
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  }
+ .tab{
+  background-color: black;
+  opacity: .8;
+  color: white;
+  font-size: 20px;
+  padding: 70px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.container .row {
+  background-color: black;
+  opacity: .8;
+  font-size: 25px;
+  margin: 0px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+.cert{
+  background-color: rgb(248, 236, 186);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  border-radius: 30px;
+}
+.list a{ 
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+}
+.list a:hover{
+  text-decoration: none;
+}
